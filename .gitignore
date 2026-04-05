@@ -1,11 +1,10 @@
-# 知识卡片文件
-*.md
-
-# 但保留以下文件
-!README.md
-!MEMORY.md
-!templates/*.md
-!*/index.md
+﻿# 知识卡片文件（保留结构，忽略个人笔记）
+knowledge/books/*.md
+knowledge/concepts/*.md
+knowledge/ideas/*.md
+knowledge/scenarios/*.md
+knowledge/problems/*.md
+!knowledge/*/index.md
 
 # 临时文件
 *.tmp
